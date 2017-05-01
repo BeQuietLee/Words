@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@color/light_blue"
     android:padding="20dp"
-    tools:context="work.lilei.words.DisplayActivity">
+    tools:context="work.lilei.words.WriteActivity">
 
     <TextView
         android:id="@+id/tv_writing"
@@ -17,26 +17,11 @@
         android:layout_gravity="center_horizontal"
         tools:text="海上生明月\n天涯共此时" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_take_screenshot"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="bottom">
+        android:layout_gravity="right|bottom"/>
 
-        <EditText
-            android:id="@+id/et_input"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:hint="@string/input" />
-
-        <Button
-            android:id="@+id/btn_ok"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:text="@string/ok"/>
-
-    </LinearLayout>
 
 </FrameLayout>
