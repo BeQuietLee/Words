@@ -3,9 +3,9 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/chinese_chabai</item>
+        <item name="colorPrimaryDark">@color/chinese_yabai</item>
+        <item name="colorAccent">@color/chinese_shiqing</item>
     </style>
 
     <style name="FullscreenTheme" parent="AppTheme">

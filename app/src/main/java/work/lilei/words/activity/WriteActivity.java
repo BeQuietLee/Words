@@ -1,4 +1,4 @@
-package work.lilei.words;
+package work.lilei.words.activity;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import work.lilei.words.R;
 import work.lilei.words.base.BaseActivity;
 
 /**

@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
 
     <color name="light_blue">#0099cc</color>
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
-
     <color name="black_overlay">#66000000</color>
+
+    <!-- Chinese Traditional Colors / 中国传统颜色 -->
+    <color name="chinese_shiqing">#7BCFA6</color> <!-- 石青：淡灰绿色 -->
+    <color name="chinese_gao">#F2ECDE</color> <!-- 缟：白色 -->
+    <color name="chinese_chabai">#F3F9F1</color> <!-- 荼白：如荼之白色 -->
+    <color name="chinese_yabai">#EEDEB0</color> <!-- 牙色：与像牙相似的淡黄色（注：暖白） -->
+    <color name="chinese_mo">#50616D</color> <!-- 墨色：即黑色 -->
+    <color name="chinese_xuanqing">#3D3B4F</color> <!-- 玄青：深黑色 -->
+    <color name="chinese_wuhei">#392F41</color> <!-- 乌黑：深黑 -->
+    <color name="chinese_qihei">#161823</color> <!-- 漆黑：非常黑的 -->
+
 </resources>

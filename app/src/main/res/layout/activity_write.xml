@@ -2,9 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_blue"
     android:padding="20dp"
-    tools:context="work.lilei.words.DisplayActivity">
+    android:background="@color/chinese_yabai"
+    tools:context="work.lilei.words.activity.WriteActivity">
 
     <TextView
         android:id="@+id/tv_writing"

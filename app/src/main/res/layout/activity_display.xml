@@ -1,27 +1,28 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_wholepage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_blue"
+    android:background="@color/chinese_yabai"
     android:padding="20dp"
-    tools:context="work.lilei.words.WriteActivity">
+    tools:context="work.lilei.words.activity.WriteActivity">
 
     <TextView
         android:id="@+id/tv_writing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
         android:textSize="@dimen/text_size_large"
-        android:textColor="@color/black"
+        android:textColor="@color/chinese_xuanqing"
         android:lineSpacingMultiplier="1.2"
-        android:layout_gravity="center_horizontal"
+        android:layout_gravity="center"
         tools:text="海上生明月\n天涯共此时" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/btn_take_screenshot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="right|bottom"/>
+        android:layout_gravity="right|bottom"
+        android:src="@android:drawable/ic_menu_camera" />
 
 
 </FrameLayout>
