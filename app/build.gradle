@@ -20,7 +20,7 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
     // View注入 在我的Ubuntu机器上无效，暂时注释掉
 //    compile 'com.jakewharton:butterknife:8.5.1'
 //    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'

@@ -48,6 +48,12 @@ public class DisplayActivity extends BaseActivity {
 
     private void initViews() {
         mLayoutPage = findViewById(R.id.layout_wholepage);
+        mLayoutPage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                toggleBtnVisibility();
+            }
+        });
 
         mTvWriting = (TextView) findViewById(R.id.tv_writing);
         mTvWriting.setText(getIntent().getStringExtra("text"));
@@ -74,9 +80,17 @@ public class DisplayActivity extends BaseActivity {
             @Override
             public void run() {
                 ViewUtil.takeScreenshot(DisplayActivity.this, mLayoutPage);
-//                ViewUtil.takeScreenshot(DisplayActivity.this, getWindow().getDecorView().getRootView());
                 mBtnTakeScreenshot.show();
             }
         }, 800);
+    }
+
+    // 按钮可见性
+    private void toggleBtnVisibility() {
+        if (mBtnTakeScreenshot.getVisibility() == View.VISIBLE) {
+            mBtnTakeScreenshot.hide();
+        } else {
+            mBtnTakeScreenshot.show();
+        }
     }
 }

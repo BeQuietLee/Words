@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
-import android.os.Environment;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -40,7 +39,7 @@ public class ViewUtil {
 
         try {
 
-            String path = Environment.getExternalStorageDirectory().toString() + "/" + DATE_FORMAT.format(now) + ".jpg";
+            String path = StorageUtil.screenshotPath() + "/" + DATE_FORMAT.format(now) + ".jpg";
             File image = new File(path);
             FileOutputStream outputStream = new FileOutputStream(image);
             bitmap.compress(Bitmap.CompressFormat.JPEG, QUALITY, outputStream);
