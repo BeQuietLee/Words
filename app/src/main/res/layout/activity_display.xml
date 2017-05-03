@@ -3,15 +3,17 @@
     android:id="@+id/layout_wholepage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/chinese_yabai"
-    android:padding="20dp"
+    android:background="@color/black"
     tools:context="work.lilei.words.activity.WriteActivity">
 
+    <!-- 黄金分割 1:1.618 set programmatically-->
     <TextView
         android:id="@+id/tv_writing"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:textSize="@dimen/text_size_large"
+        android:background="@color/chinese_yabai"
         android:textColor="@color/chinese_xuanqing"
         android:lineSpacingMultiplier="1.2"
         android:layout_gravity="center"
@@ -22,6 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right|bottom"
+        android:layout_margin="20dp"
         android:src="@android:drawable/ic_menu_camera" />
 
 

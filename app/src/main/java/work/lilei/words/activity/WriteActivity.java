@@ -48,7 +48,7 @@ public class WriteActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(WriteActivity.this, DisplayActivity.class);
-                intent.putExtra("text", mEtInput.getText().toString());
+                intent.putExtra("text", mTvWriting.getText());
                 startActivity(intent);
             }
         });

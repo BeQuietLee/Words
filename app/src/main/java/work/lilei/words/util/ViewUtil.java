@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.view.View;
+import android.view.animation.AccelerateInterpolator;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
@@ -29,6 +30,7 @@ public class ViewUtil {
 
 
     private ViewUtil() {}
+
     public static void takeScreenshot(Context context, View view) {
 
         Date now = new Date();
